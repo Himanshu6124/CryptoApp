@@ -20,7 +20,24 @@ This project is all about designing a Crypto Trading App with a modern UI using 
  [Kotlin couroutines](https://kotlinlang.org/docs/coroutines-overview.html) : for managing background threads with simplified code and reducing needs for callbacks
 
 
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
+
+
 ## Screenshots
 
-![App Screenshot](https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-13-702_com.himanshu.cryptoapp.jpg)
+![App Screenshot](https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-13-702_com.himanshu.cryptoapp.jpg) ![App Screenshot](https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-18-293_com.himanshu.cryptoapp.jpg) ![App Screenshot](https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-24-505_com.himanshu.cryptoapp.jpg)
+
+![App Screenshot](https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-31-394_com.himanshu.cryptoapp.jpg)
+
+![App Screenshot](https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-39-444_com.himanshu.cryptoapp.jpg)
+
+![App Screenshot](https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-41-956_com.himanshu.cryptoapp.jpg)
+
+![App Screenshot](https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-46-626_com.himanshu.cryptoapp.jpg)
+
+[App Screenshot](https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-52-465_com.himanshu.cryptoapp.jpg)
+
 
