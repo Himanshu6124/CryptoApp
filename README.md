@@ -1,7 +1,8 @@
 
 # Crypto App
-This project is all about designing a Crypto Trading App with a modern UI using the latest features offered by Android Studio. In a total of three parts, we will create a unique home screen containing all the necessary information on one page, use the app to visualize our cryptocurrency price data, and animate the charts for a satisfying user experience.
-
+This project is all about designing a Crypto Trading App with a modern UI using the latest features offered by Android Studio. In a total of three parts, we will create a unique home screen containing all the necessary information on one page, use the app for details analysis of crypocurrencies and its trend over the past period like 4 hours ,24 hours, 1 week, 1 month.
+The app also shows the top gainers and top top losers cryptocurrencies across the world.
+We can also watchlist the cryptocurrencies for a closer look
 
 # Libraries Used
 
