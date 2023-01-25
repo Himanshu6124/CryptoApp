@@ -29,14 +29,36 @@ We can also watchlist the cryptocurrencies for a closer look
 
 ## Screenshots
 
-<img src="https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-13-702_com.himanshu.cryptoapp.jpg" alt="drawing" style="width:200px;"/>
+<img src="https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-13-702_com.himanshu.cryptoapp.jpg" alt="Error" style="width:200px;"/>
 
-![App Screenshot](https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-13-702_com.himanshu.cryptoapp.jpg) ![App Screenshot](https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-18-293_com.himanshu.cryptoapp.jpg) ![App Screenshot](https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-24-505_com.himanshu.cryptoapp.jpg)
+<img src="https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-18-293_com.himanshu.cryptoapp.jpg" alt="Error" style="width:200px;"/>
 
-![App Screenshot](https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-31-394_com.himanshu.cryptoapp.jpg) ![App Screenshot](https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-39-444_com.himanshu.cryptoapp.jpg) ![App Screenshot](https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-41-956_com.himanshu.cryptoapp.jpg)
+<img src="https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-24-505_com.himanshu.cryptoapp.jpg" alt="Error" style="width:200px;"/>
+
+<img src="https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-31-394_com.himanshu.cryptoapp.jpg" alt="Error" style="width:200px;"/>
+
+<img src="https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-39-444_com.himanshu.cryptoapp.jpg" alt="Error" style="width:200px;"/>
+
+<img src="https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-41-956_com.himanshu.cryptoapp.jpg" alt="Error" style="width:200px;"/>
+
+<img src="https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-46-626_com.himanshu.cryptoapp.jpg" alt="Error" style="width:200px;"/>
+
+<img src="https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-52-465_com.himanshu.cryptoapp.jpg" alt="Error" style="width:200px;"/>
+
+
+
+<!-- ![App Screenshot](https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-13-702_com.himanshu.cryptoapp.jpg) -->
+
+<!-- ![App Screenshot](https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-18-293_com.himanshu.cryptoapp.jpg) -->
+
+<!-- ![App Screenshot](https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-24-505_com.himanshu.cryptoapp.jpg) -->
+<!-- 
+![App Screenshot](https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-31-394_com.himanshu.cryptoapp.jpg)
+![App Screenshot](https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-39-444_com.himanshu.cryptoapp.jpg) 
+![App Screenshot](https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-41-956_com.himanshu.cryptoapp.jpg)
 
 ![App Screenshot](https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-46-626_com.himanshu.cryptoapp.jpg)
 
-[App Screenshot](https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-52-465_com.himanshu.cryptoapp.jpg)
+[App Screenshot](https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-52-465_com.himanshu.cryptoapp.jpg) -->
 
 
