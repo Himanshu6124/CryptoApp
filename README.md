@@ -29,9 +29,7 @@ We can also watchlist the cryptocurrencies for a closer look
 
 ## Screenshots
 
-<img src="https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-13-702_com.himanshu.cryptoapp.jpg" alt="Error" style="width:200px;"/>
-
-<img src="https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-18-293_com.himanshu.cryptoapp.jpg" alt="Error" style="width:200px;"/>
+<img src="https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-13-702_com.himanshu.cryptoapp.jpg" alt="Error" style="width:200px;"/>  <img src="https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-18-293_com.himanshu.cryptoapp.jpg" alt="Error" style="width:200px;"/>
 
 <img src="https://github.com/Himanshu6124/CryptoApp/blob/master/Screenshot_2023-01-16-16-01-24-505_com.himanshu.cryptoapp.jpg" alt="Error" style="width:200px;"/>
 
