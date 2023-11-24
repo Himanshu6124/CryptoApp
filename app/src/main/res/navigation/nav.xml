@@ -8,8 +8,8 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.himanshu.cryptoapp.fragments.HomeFragment"
-        android:label="fragment_home"
-        tools:layout="@layout/fragment_home" >
+        android:label="Top Currencies"
+        tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment_to_detailsFragment"
             app:destination="@id/detailsFragment" />
@@ -17,8 +17,8 @@
     <fragment
         android:id="@+id/marketFragment"
         android:name="com.himanshu.cryptoapp.fragments.MarketFragment"
-        android:label="fragment_market"
-        tools:layout="@layout/fragment_market" >
+        android:label="Market"
+        tools:layout="@layout/fragment_market">
         <action
             android:id="@+id/action_marketFragment_to_detailsFragment"
             app:destination="@id/detailsFragment" />
@@ -26,8 +26,8 @@
     <fragment
         android:id="@+id/watchlistFragment"
         android:name="com.himanshu.cryptoapp.fragments.WatchlistFragment"
-        android:label="fragment_watchlist"
-        tools:layout="@layout/fragment_watchlist" >
+        android:label="Watchlist"
+        tools:layout="@layout/fragment_watchlist">
         <action
             android:id="@+id/action_watchlistFragment_to_detailsFragment2"
             app:destination="@id/detailsFragment" />
@@ -36,12 +36,12 @@
     <fragment
         android:id="@+id/detailsFragment"
         android:name="com.himanshu.cryptoapp.fragments.DetailsFragment"
-        tools:layout="@layout/fragment_details"
-        android:label="DetailsFragment" >
+        android:label="Details"
+        tools:layout="@layout/fragment_details">
         <argument
             android:name="data"
+            android:defaultValue="@null"
             app:argType="com.himanshu.cryptoapp.models.CryptoCurrencyListItem"
-            app:nullable="true"
-            android:defaultValue="@null" />
+            app:nullable="true" />
     </fragment>
 </navigation>

@@ -1,18 +1,16 @@
 package com.himanshu.cryptoapp.fragments
 
-import android.opengl.Visibility
 import android.os.Bundle
 import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayoutMediator
-import com.himanshu.cryptoapp.R
 import com.himanshu.cryptoapp.adpater.TopGainLossPagerAdapter
 import com.himanshu.cryptoapp.adpater.TopMarketAdapter
 import com.himanshu.cryptoapp.apis.ApiInterface
@@ -27,9 +25,7 @@ class HomeFragment : Fragment() {
     private lateinit var binding: FragmentHomeBinding
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
+        inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         // Inflate the layout for this fragment
         binding =FragmentHomeBinding.inflate(layoutInflater)
 
@@ -73,8 +69,6 @@ class HomeFragment : Fragment() {
 
         }.attach()
 
-
-
     }
 
     private fun getTopCurrencyList() {
@@ -86,15 +80,12 @@ class HomeFragment : Fragment() {
 
             Log.d("HP", "list ${res.body()!!.data.cryptoCurrencyList?.get(0)?.symbol}")
 
-
             //ui work dispatcher.main thread
             withContext(Dispatchers.Main){
                 binding.topCurrencyRecyclerView.adapter = TopMarketAdapter(requireContext(),
                     res.body()!!.data.cryptoCurrencyList!!
                 )
             }
-
         }
     }
-
 }

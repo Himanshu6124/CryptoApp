@@ -17,9 +17,9 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
+
         android:layout_height="match_parent"
         android:padding="12dp">
-
         <ImageView
             android:id="@+id/currencyImageView"
             android:layout_width="30dp"

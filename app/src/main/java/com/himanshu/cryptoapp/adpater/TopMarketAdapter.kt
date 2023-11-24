@@ -16,13 +16,10 @@ class TopMarketAdapter(var context: Context,var list :List<CryptoCurrencyListIte
 
     inner class TopMarketviewhHolder(view : View) : RecyclerView.ViewHolder(view){
         var binding = TopCurrencyLayoutBinding.bind(view)
-
-
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TopMarketviewhHolder {
         return TopMarketviewhHolder(LayoutInflater.from(context).inflate(R.layout.top_currency_layout,parent,false))
-
     }
 
     override fun onBindViewHolder(holder: TopMarketviewhHolder, position: Int) {
@@ -43,14 +40,9 @@ class TopMarketAdapter(var context: Context,var list :List<CryptoCurrencyListIte
             holder.binding.topCurrencyChangeTextView.setTextColor(context.resources.getColor(R.color.red))
             holder.binding.topCurrencyChangeTextView.text = "${ String.format("%.02f",item.quotes[0].percentChange24h)} %"
         }
-
         holder.itemView.setOnClickListener {
             Navigation.findNavController(it).navigate(HomeFragmentDirections.actionHomeFragmentToDetailsFragment(item))
-
         }
-
-
-
     }
 
     override fun getItemCount(): Int {

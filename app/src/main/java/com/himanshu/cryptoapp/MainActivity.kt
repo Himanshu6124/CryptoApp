@@ -26,19 +26,28 @@ class MainActivity : AppCompatActivity() {
         binding =ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-       val actionBar : ActionBar? = supportActionBar;
-
+        val actionBar : ActionBar? = supportActionBar;
         actionBar?.setDisplayHomeAsUpEnabled(true);
+
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.navigationContainerView)
         navController = navHostFragment!!.findNavController()
+
 
         val popMenu = PopupMenu(this,null)
         popMenu.inflate(R.menu.nav_menu)
         binding.bottomBar.setupWithNavController(popMenu.menu,navController)
 
+
+        // to hide back button on home fragment
+        val appBarConfiguration = AppBarConfiguration( setOf(R.id.homeFragment))
+
+        setupActionBarWithNavController(navController,appBarConfiguration)
+
     }
 
+    override fun onSupportNavigateUp(): Boolean {
+        val navController = findNavController(R.id.navigationContainerView)
 
-
-
+        return navController.navigateUp() || super.onSupportNavigateUp()
+    }
 }

@@ -23,7 +23,7 @@ class TopLossGainFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
             binding = FragmentTopLossGainBinding.inflate(layoutInflater)
 
         getMarketData()
@@ -45,11 +45,10 @@ class TopLossGainFragment : Fragment() {
                     val dataItem = res.body()!!.data.cryptoCurrencyList
 
                     if (dataItem != null) {
-                        Collections.sort(dataItem){
-
+                        Collections.sort(dataItem)
+                        {
                                 o1,o2 ->(o1.quotes!![0].percentChange24h.toInt())
                             .compareTo(o2.quotes!![0].percentChange24h.toInt())
-
                         }
 
                         binding.spinKitView.visibility = GONE

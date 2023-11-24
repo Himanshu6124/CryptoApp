@@ -40,7 +40,6 @@ class WatchlistFragment : Fragment() {
             {
                 Log.d("HP", "list ${res.body()!!.data.cryptoCurrencyList?.get(0)?.symbol}")
 
-
                 withContext(Dispatchers.Main){
                     watchListItem = ArrayList()
                     watchListItem.clear()
@@ -60,7 +59,6 @@ class WatchlistFragment : Fragment() {
                 }
             }
         }
-
 
         return binding.root
     }

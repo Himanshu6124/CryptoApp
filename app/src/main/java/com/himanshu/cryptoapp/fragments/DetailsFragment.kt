@@ -19,8 +19,8 @@ import com.himanshu.cryptoapp.databinding.FragmentDetailsBinding
 import com.himanshu.cryptoapp.models.CryptoCurrencyListItem
 
 
-class DetailsFragment : Fragment() {
-
+class DetailsFragment : Fragment()
+{
     private lateinit var binding :FragmentDetailsBinding
     private val item : DetailsFragmentArgs by navArgs()
 
@@ -29,8 +29,6 @@ class DetailsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentDetailsBinding.inflate(layoutInflater)
-
-
 
         val data : CryptoCurrencyListItem = item.data!!
 
@@ -209,14 +207,10 @@ class DetailsFragment : Fragment() {
             binding.detailChangeImageView.setImageResource(R.drawable.ic_caret_up)
             binding.detailChangeTextView.text = "+ ${ String.format("%.02f",data.quotes[0].percentChange24h)} %"
         }
-        else
-        {
+        else {
             binding.detailChangeTextView.setTextColor(requireContext().resources.getColor(R.color.red))
             binding.detailChangeImageView.setImageResource(R.drawable.ic_caret_down)
             binding.detailChangeTextView.text = "${ String.format("%.02f",data.quotes[0].percentChange24h)} %"
         }
-
-
     }
-
 }

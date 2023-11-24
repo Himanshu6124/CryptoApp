@@ -70,7 +70,6 @@ class MarketAdapter(var context: Context, var list: List<CryptoCurrencyListItem>
             else if(fragmentType == "Market")
             {
                 findNavController(it).navigate(MarketFragmentDirections.actionMarketFragmentToDetailsFragment(item))
-
             }
 
             else if(fragmentType == "Watch")

@@ -22,9 +22,10 @@
 
         <ImageView
             android:layout_width="match_parent"
+            android:tint="#B21212"
+            android:background="#121112"
             android:layout_height="182dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/banner" />
+            android:src="@drawable/baseline_currency_bitcoin_24" />
 
     </androidx.cardview.widget.CardView>
 
