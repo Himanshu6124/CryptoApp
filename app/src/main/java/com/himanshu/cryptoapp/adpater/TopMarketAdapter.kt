@@ -12,17 +12,17 @@ import com.himanshu.cryptoapp.databinding.TopCurrencyLayoutBinding
 import com.himanshu.cryptoapp.fragments.HomeFragmentDirections
 import com.himanshu.cryptoapp.models.CryptoCurrencyListItem
 
-class TopMarketAdapter(var context: Context,var list :List<CryptoCurrencyListItem>) : RecyclerView.Adapter<TopMarketAdapter.TopMarketviewhHolder>() {
+class TopMarketAdapter(private var context: Context, var list :List<CryptoCurrencyListItem>) : RecyclerView.Adapter<TopMarketAdapter.TopMarketViewHolder>() {
 
-    inner class TopMarketviewhHolder(view : View) : RecyclerView.ViewHolder(view){
+    inner class TopMarketViewHolder(view : View) : RecyclerView.ViewHolder(view){
         var binding = TopCurrencyLayoutBinding.bind(view)
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TopMarketviewhHolder {
-        return TopMarketviewhHolder(LayoutInflater.from(context).inflate(R.layout.top_currency_layout,parent,false))
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TopMarketViewHolder {
+        return TopMarketViewHolder(LayoutInflater.from(context).inflate(R.layout.top_currency_layout,parent,false))
     }
 
-    override fun onBindViewHolder(holder: TopMarketviewhHolder, position: Int) {
+    override fun onBindViewHolder(holder: TopMarketViewHolder, position: Int) {
         val item = list[position]
 
         holder.binding.topCurrencyNameTextView.text = item.name
