@@ -27,7 +27,6 @@
         android:id="@+id/bottomBar"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-
         app:cornerRadius="12dp"
         app:itemFontFamily="@font/baloo2"
         app:backgroundColor="#121212"
@@ -36,6 +35,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:menu="@menu/nav_menu">
     </me.ibrahimsn.lib.SmoothBottomBar>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
